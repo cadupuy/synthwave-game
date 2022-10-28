@@ -40,7 +40,8 @@ export default class Car {
 
   setModel() {
     this.group = new Group();
-    this.carBox = new Mesh(new BoxGeometry(), new MeshBasicMaterial({ transparent: true }));
+    this.carBox = new Mesh(new BoxGeometry(), new MeshBasicMaterial({ visible: false }));
+    //debug
     // this.carBox = new Mesh(new BoxGeometry(), new MeshBasicMaterial({ color: "yellow" }));
     this.carBox.scale.set(7, 7, 22);
     this.carBox.position.set(0, 0, 0);
