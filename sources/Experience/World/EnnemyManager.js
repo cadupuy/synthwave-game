@@ -1,6 +1,7 @@
 import { BoxGeometry, Mesh, Box3, Vector3, MeshMatcapMaterial } from "three";
 import gsap from "gsap";
-import Experience from "../Experience.js";
+
+import Experience from "@experience/Experience.js";
 
 export default class Ennemy {
   constructor(car) {

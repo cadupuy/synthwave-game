@@ -1,7 +1,7 @@
 import { Vector3, MathUtils } from "three";
-
-import Experience from "../Experience.js";
 import { Sky as ThreeSky } from "three/examples/jsm/objects/Sky";
+
+import Experience from "@experience/Experience.js";
 
 export default class Sky {
   constructor() {

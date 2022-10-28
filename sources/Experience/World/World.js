@@ -1,9 +1,10 @@
 import gsap from "gsap";
 
-import Audio from "../Audio.js";
-import Experience from "../Experience.js";
+import Audio from "@experience/Audio.js";
+import Experience from "@experience/Experience.js";
+
 import Environment from "./Environment.js";
-import Terrain from "./Terrain";
+import Terrain from "./Terrain.js";
 import Car from "./Car.js";
 import Sun from "./Sun.js";
 import Sky from "./Sky.js";

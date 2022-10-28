@@ -1,7 +1,8 @@
 import { TextureLoader, CubeTextureLoader } from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-import EventEmitter from "./EventEmitter.js";
 import gsap from "gsap";
+
+import EventEmitter from "./EventEmitter.js";
 export default class Resources extends EventEmitter {
   constructor(sources) {
     super();

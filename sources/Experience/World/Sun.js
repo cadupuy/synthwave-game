@@ -1,8 +1,8 @@
 import { CircleGeometry, ShaderMaterial, Mesh } from "three";
-import Experience from "../Experience";
+import Experience from "@experience/Experience.js";
 
-import frag from "../shaders/sun/frag.glsl";
-import vert from "../shaders/sun/vert.glsl";
+import frag from "@shaders/sun/frag.glsl";
+import vert from "@shaders/sun/vert.glsl";
 
 export default class Sun {
   constructor(audio) {

@@ -1,7 +1,7 @@
 import { Box3, Vector3, Mesh, BoxGeometry, MeshBasicMaterial, Group } from "three";
 import gsap from "gsap";
 
-import Experience from "../Experience";
+import Experience from "@experience/Experience.js";
 
 export default class Car {
   #initialPosY = 46.4;

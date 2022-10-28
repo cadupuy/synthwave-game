@@ -1,4 +1,4 @@
-import EventEmitter from "./Utils/EventEmitter";
+import EventEmitter from "@utils/EventEmitter";
 
 // import {stage, dom} from 'mnf'
 const H_CANVAS = 200;

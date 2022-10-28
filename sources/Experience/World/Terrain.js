@@ -1,9 +1,10 @@
 import { PlaneGeometry, ShaderMaterial, Mesh, Group, MeshBasicMaterial } from "three";
 import gsap from "gsap";
-import Experience from "../Experience";
 
-import vert from "../shaders/terrain/vert.glsl";
-import frag from "../shaders/terrain/frag.glsl";
+import Experience from "@experience/Experience.js";
+
+import vert from "@shaders/terrain/vert.glsl";
+import frag from "@shaders/terrain/frag.glsl";
 
 export default class Terrain {
   constructor(audio) {

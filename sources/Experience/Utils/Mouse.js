@@ -1,6 +1,6 @@
 import { Vector2 } from "three";
 
-import Experience from "../Experience.js";
+import Experience from "@experience/Experience.js";
 
 export default class Mouse {
   constructor() {

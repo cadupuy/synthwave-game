@@ -1,17 +1,17 @@
 import { Scene, Mesh, Fog } from "three";
 
-import Debug from "./Utils/Debug.js";
-import Sizes from "./Utils/Sizes.js";
-import Stats from "./Utils/Stats.js";
-import Time from "./Utils/Time.js";
-import Camera from "./Camera.js";
-import Renderer from "./Renderer.js";
-import World from "./World/World.js";
-import Resources from "./Utils/Resources.js";
-import Mouse from "./Utils/Mouse.js";
-import Loader from "./Loader.js";
+import Debug from "@utils/Debug.js";
+import Sizes from "@utils/Sizes.js";
+import Stats from "@utils/Stats.js";
+import Time from "@utils/Time.js";
+import Resources from "@utils/Resources.js";
+import Mouse from "@utils/Mouse.js";
 
-import sources from "./sources.js";
+import World from "@world/World.js";
+import Camera from "@experience/Camera.js";
+import Renderer from "@experience/Renderer.js";
+import Loader from "@experience/Loader.js";
+import sources from "@experience/sources.js";
 
 let instance = null;
 

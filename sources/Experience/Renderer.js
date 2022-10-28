@@ -16,7 +16,7 @@ import { RGBShiftShader } from "three/examples/jsm/shaders/RGBShiftShader.js";
 import { GammaCorrectionShader } from "three/examples/jsm/shaders/GammaCorrectionShader.js";
 import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
 
-import Experience from "./Experience.js";
+import Experience from "@experience/Experience.js";
 
 export default class Renderer {
   constructor() {

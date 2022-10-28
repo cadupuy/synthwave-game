@@ -1,8 +1,9 @@
-import { BufferGeometry, BufferAttribute, ShaderMaterial, Points, AdditiveBlending } from "three";
-import Experience from "../Experience";
+import { BufferGeometry, BufferAttribute, ShaderMaterial, Points } from "three";
 
-import firefliesVertexShader from "../shaders/fireflies/vertex.glsl";
-import firefliesFragmentShader from "../shaders/fireflies/fragment.glsl";
+import Experience from "@experience/Experience.js";
+
+import firefliesVertexShader from "@shaders/fireflies/vertex.glsl";
+import firefliesFragmentShader from "@shaders/fireflies/fragment.glsl";
 
 export default class Particles {
   constructor() {

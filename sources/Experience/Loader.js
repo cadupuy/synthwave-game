@@ -1,9 +1,9 @@
 import { PlaneGeometry, ShaderMaterial, Mesh } from "three";
 
-import Experience from "./Experience";
+import Experience from "@experience/Experience";
 
-import vertex from "./shaders/loader/vert.glsl";
-import fragment from "./shaders/loader/frag.glsl";
+import vertex from "@shaders/loader/vert.glsl";
+import fragment from "@shaders/loader/frag.glsl";
 
 export default class Loader {
   constructor() {
