@@ -54,7 +54,6 @@ export default class Car {
     this.toprightWheel = null;
     this.bottomleftWheel = null;
 
-    this.toto = null;
     this.model.traverse((child) => {
       if (child.name == "Left_Wheels_6") {
         this.bottomleftWheel = child;
@@ -74,7 +73,6 @@ export default class Car {
     this.model.add(this.carBox);
     this.scene.add(this.model);
 
-    console.log(this.model);
     // Debug
     if (this.debug.active) {
       this.debugFolder.add(this.model.position, "x").name("x").min(-100).max(100).step(0.001);
