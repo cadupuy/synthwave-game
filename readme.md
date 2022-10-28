@@ -1,4 +1,4 @@
-# Three.js Journey
+# Synthwave Game
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
