@@ -62,7 +62,7 @@ export default class Terrain {
   }
 
   update = () => {
-    this.planeMat.uniforms.uVolume.value += (this.audio.volume - this.planeMat.uniforms.uVolume.value) * 0.6;
+    // this.planeMat.uniforms.uVolume.value += (this.audio.volume - this.planeMat.uniforms.uVolume.value) * 0.6;
 
     this.volume = this.audio.volume;
 
